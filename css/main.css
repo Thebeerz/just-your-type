@@ -54,18 +54,31 @@ div {
 
 .yousoican {
   position: absolute;
-  top: 7rem;
+  top: 8rem;
+  left: 18rem;
 }
 
 .me {
   position: absolute;
-  top: 8rem;
+  top: 10rem;
+  left: 20rem;
 }
 
+main {
+  position: relative;
+}
 .unit {
+  position: absolute;
+  top: 12rem;
   background-color: #990000;
   margin-top: 16rem;
   transform: skewY(20deg);
+}
+
+.legacy {
+  left: 6rem;
+  background-color: #cc9900;
+  color: #000;
 }
 
 .imean {
