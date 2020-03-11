@@ -52,22 +52,21 @@ div {
   margin-top: 5rem;
 }
 
-.yousoican {
+.yousoican, .me {
+  margin-top: 7.5rem;
   position: absolute;
-  top: 8rem;
-  left: 18rem;
+  width: 90%;
 }
 
 .me {
-  position: absolute;
-  top: 10rem;
-  left: 20rem;
+  margin-top: 10rem;
 }
 
 main {
   position: relative;
 }
-.unit {
+
+.dpr, .legacy {
   position: absolute;
   top: 12rem;
   background-color: #990000;
@@ -84,6 +83,15 @@ main {
 .imean {
   transform: skewY(20deg);
 }
+
+.dont {
+  text-align: right;
+  padding: 1rem;
+  width: 60%;
+  background-color: #990000;
+}
+
+
 
 h1 {
   text-align: right;
