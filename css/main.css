@@ -2,12 +2,8 @@ html {
   font-family: Kanit, sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 body {
-  background-color: #0E1427;
+  background-color: #0e1427;
   color: #fff;
   position: relative;
 }
