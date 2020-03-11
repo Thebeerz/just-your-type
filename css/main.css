@@ -1,12 +1,5 @@
 html {
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
-  font-family: "Kanit", sans-serif;
+  font-family: Kanit, sans-serif;
 }
 
 *, *::before, *::after {
@@ -16,7 +9,6 @@ html {
 body {
   background-color: #0E1427;
   color: #fff;
-  margin: 0;
   position: relative;
 }
 
@@ -36,7 +28,7 @@ div {
 
 .keep {
   margin: 0;
-  opacity: 0.2;
+  opacity: .2;
   font-size: 7em;
   position: absolute;
   width: 100%;
@@ -63,14 +55,14 @@ main {
 .dpr, .legacy {
   position: absolute;
   top: 12rem;
-  background-color: #990000;
+  background-color: #900;
   margin-top: 16rem;
   transform: skewY(20deg);
 }
 
 .legacy {
   left: 6rem;
-  background-color: #cc9900;
+  background-color: #c90;
   color: #000;
 }
 
@@ -82,14 +74,12 @@ main {
   text-align: right;
   padding: 1rem;
   width: 60%;
-  background-color: #990000;
+  background-color: #900;
 }
-
-
 
 h1 {
   text-align: right;
   padding: .3rem;
   width: 60%;
-  background-color: #990000;
+  background-color: #900;
 }
