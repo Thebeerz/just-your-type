@@ -9,7 +9,7 @@ body {
 }
 
 div {
-  margin: 1rem;
+  /* margin: 1rem; */
 }
 
 .cool {
@@ -27,7 +27,7 @@ div {
   margin: 0;
   opacity: .2;
   position: absolute;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .keep-2 {
@@ -68,7 +68,6 @@ main {
 
 .dont {
   /* text-align: right;
-  padding: 1rem;
   width: 60%; */
   background-color: #900;
 }
