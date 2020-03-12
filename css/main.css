@@ -8,9 +8,6 @@ body {
   position: relative;
 }
 
-div {
-}
-
 .cool {
   display: block;
   margin: 0;
@@ -26,6 +23,7 @@ div {
   margin: 0;
   opacity: .2;
   position: absolute;
+
   /* width: 100%; */
 }
 
