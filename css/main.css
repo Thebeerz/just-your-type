@@ -1,5 +1,5 @@
 html {
-  font-family: Kanit, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -10,22 +10,23 @@ body {
 
 div {
   margin: 1rem;
-  text-align: center;
   font-size: 1rem;
 }
 
 .cool {
+  display: block;
   margin: 0;
   position: relative;
   transform: rotate(-90deg);
   left: 40%;
-  top: -10%;
+  /* top: -10%; */
 }
 
 .keep {
-  margin: 0;
+  /* font-family: Kanit; */
+  /* margin: 0; */
   opacity: .2;
-  font-size: 7em;
+  /* font-size: 7em; */
   position: absolute;
   width: 100%;
 }
@@ -49,15 +50,15 @@ main {
 }
 
 .dpr, .legacy {
+  font-family: "Open Sans";
   position: absolute;
-  top: 12rem;
+  top: 16rem;
   background-color: #900;
-  margin-top: 16rem;
   transform: skewY(20deg);
 }
 
 .legacy {
-  left: 6rem;
+  left: 4rem;
   background-color: #c90;
   color: #000;
 }
@@ -67,15 +68,14 @@ main {
 }
 
 .dont {
-  text-align: right;
+  /* text-align: right;
   padding: 1rem;
-  width: 60%;
+  width: 60%; */
   background-color: #900;
 }
 
-h1 {
+.imean2 {
   text-align: right;
-  padding: .3rem;
   width: 60%;
   background-color: #900;
 }
