@@ -18,7 +18,8 @@ div {
   position: relative;
   transform: rotate(-90deg);
   left: 40%;
-/* top: -10%; */
+
+  /* top: -10%; */
 }
 
 .keep {
