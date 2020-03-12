@@ -32,17 +32,18 @@ body {
 }
 
 .keep-2 {
-  margin-top: 5rem;
+  top: 7.5rem;
 }
 
 .yousoican, .me {
-  margin-top: 7.5rem;
+  top: 8rem;
   position: absolute;
   width: 90%;
 }
+.yousoican
 
 .me {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 main {
