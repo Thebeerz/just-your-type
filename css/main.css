@@ -8,10 +8,9 @@ body {
   position: relative;
 }
 
-/* div {
+div {
   margin: 1rem;
-  font-size: 1rem;
-} */
+}
 
 .cool {
   display: block;
@@ -26,7 +25,6 @@ body {
   /* font-family: Kanit; */
   margin: 0;
   opacity: .2;
-/* font-size: 7em; */
   position: absolute;
   width: 100%;
 }
@@ -35,12 +33,11 @@ body {
   top: 7.5rem;
 }
 
-.yousoican, .me {
+.you, .soican, .me {
   top: 8rem;
   position: absolute;
   width: 90%;
 }
-.yousoican
 
 .me {
   margin-top: 5rem;
