@@ -9,7 +9,6 @@ body {
 }
 
 div {
-  /* margin: 1rem; */
 }
 
 .cool {
@@ -41,7 +40,7 @@ div {
 }
 
 .me {
-  margin-top: 5rem;
+  top: 5rem;
 }
 
 main {
