@@ -8,10 +8,10 @@ body {
   position: relative;
 }
 
-div {
+/* div {
   margin: 1rem;
   font-size: 1rem;
-}
+} */
 
 .cool {
   display: block;
@@ -19,14 +19,14 @@ div {
   position: relative;
   transform: rotate(-90deg);
   left: 40%;
-  /* top: -10%; */
+/* top: -10%; */
 }
 
 .keep {
   /* font-family: Kanit; */
-  /* margin: 0; */
+  margin: 0;
   opacity: .2;
-  /* font-size: 7em; */
+/* font-size: 7em; */
   position: absolute;
   width: 100%;
 }
