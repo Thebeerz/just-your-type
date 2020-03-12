@@ -14,7 +14,6 @@ body {
   position: relative;
   transform: rotate(-90deg);
   left: 40%;
-
   top: -10%;
 } */
 
@@ -22,6 +21,7 @@ body {
   font-family: Kanit;
   margin: 0;
   opacity: .2;
+
   /* position: absolute; */
 
   width: 100%;
@@ -33,12 +33,10 @@ body {
 
 .soican {
   top: 8rem;
-  /* position: absolute; */
-  width: 90%;
-}
 
-.me {
-  top: 5rem;
+  /* position: absolute; */
+
+  width: 90%;
 }
 
 main {
