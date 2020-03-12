@@ -8,32 +8,32 @@ body {
   position: relative;
 }
 
-.cool {
+/* .cool {
   display: block;
   margin: 0;
   position: relative;
   transform: rotate(-90deg);
   left: 40%;
 
-  /* top: -10%; */
-}
+  top: -10%;
+} */
 
 .keep {
-  /* font-family: Kanit; */
+  font-family: Kanit;
   margin: 0;
   opacity: .2;
-  position: absolute;
+  /* position: absolute; */
 
-  /* width: 100%; */
+  width: 100%;
 }
 
 .keep-2 {
   top: 7.5rem;
 }
 
-.you, .soican, .me {
+.soican {
   top: 8rem;
-  position: absolute;
+  /* position: absolute; */
   width: 90%;
 }
 
@@ -48,7 +48,7 @@ main {
 .dpr, .legacy {
   font-family: "Open Sans";
   position: absolute;
-  top: 16rem;
+  top: 22rem;
   background-color: #900;
   transform: skewY(20deg);
 }
@@ -66,6 +66,7 @@ main {
 .dont {
   /* text-align: right;
   width: 60%; */
+  display: inline-flex;
   background-color: #900;
 }
 
@@ -73,4 +74,24 @@ main {
   text-align: right;
   width: 60%;
   background-color: #900;
+}
+
+.grad {
+  left: 3rem;
+  width: 66%;
+  transform: skewY(20deg);
+  background-image: linear-gradient(#900, #0e1427);
+}
+
+@media only screen and (min-width: 60em) {
+
+  .dpr, .legacy {
+    top: 40rem;
+  }
+
+  .dpr {
+    width: 80%;
+    top: 48rem;
+  }
+
 }
